@@ -1,15 +1,17 @@
 .journeyResume {
 	background: #53CAB4;
 	color: white;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 .journeyResume-item {
-	font-size: 1.2em;
+	display: inline-block;
+	width: 45%;
+	font-size: 1.45em;
 	font-weight: bold;
 	text-transform: uppercase;
 	vertical-align: middle;
-	width: 44%;
-	display: inline-block;
 }
 
 .journeyResume-itemHiglight {
@@ -18,7 +20,7 @@
 }
 
 
-@media(min-width: 800px){
+@media(min-width: 560px){
 	.journeyResume {
 		text-align: justify;
 		line-height: 0;
