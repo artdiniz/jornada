@@ -1,0 +1,19 @@
+@media(min-width: 1125px){
+	.journeyTimeline-list {
+		text-align: justify;
+		line-height: 0;
+		width: 100%;
+	}
+
+	.journeyTimeline-list .journeyStep {
+		display: inline-block;
+		line-height: normal;
+	}
+
+	.journeyTimeline-list:after {
+		content:".";
+		color: transparent;
+		width: 100%;
+		display: inline-block;
+	}
+}

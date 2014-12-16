@@ -1,0 +1,48 @@
+.journeyStep {
+	padding: 1em;
+	vertical-align: top;
+	background: #292D36;
+	margin-bottom: .5em;
+	text-align: left;
+}
+
+.journeyStep-number {
+	font-size: 3em;
+	color: #FFF;
+}
+
+.journeyStep-name {
+	display: block;
+	margin-bottom: .5em;
+	font-size: 1.5em;
+	font-weight: lighter;
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+	color: #53CAB4;
+}
+
+.journeyStep-course {
+	color: white;
+	font-family: Arial, sans-serif;
+}
+
+.journeyStep-course + .journeyStep-course {
+	margin-top: .5em;
+}
+
+@media(min-width: 600px){
+	.journeyStep{
+		max-width: 220px;
+		display: inline-block;
+	}
+
+	.journeyStep-name{
+		min-height: 2em;
+		font-size: 2em;
+	}
+
+	.journeyStep-courseList{
+		margin-top: .5em;
+		height: 9em;
+	}
+}
