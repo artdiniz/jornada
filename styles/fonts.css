@@ -14,4 +14,13 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'UnitedSansRegular';
+	src: url('../fonts/UnitedSansReg-Bold.eot');
+	src: local('☺'), url('../fonts/UnitedSansReg-Bold.woff') format('woff'), url('../fonts/UnitedSansReg-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
 

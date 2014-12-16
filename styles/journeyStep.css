@@ -7,6 +7,7 @@
 }
 
 .journeyStep-number {
+	font-family: "UnitedSansRegular", "UnitedSansCond", "Arial", sans-serif;;
 	font-size: 3em;
 	color: #FFF;
 }
@@ -38,11 +39,12 @@
 
 	.journeyStep-name{
 		min-height: 2em;
+		max-width: 4.8em;
 		font-size: 2em;
 	}
 
 	.journeyStep-courseList{
 		margin-top: .5em;
-		height: 9em;
+		height: 10em;
 	}
 }
