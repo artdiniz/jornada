@@ -2,3 +2,22 @@
 	background-color: #292D36;
 	color: #FFF
 }
+
+.callToAction-content {
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+
+.callToAction-button {
+	background-color: #53CAB4;
+	color: #292D36;
+	font-size: 1.5em;
+	box-shadow: 0 0 4px 4px;
+}
+
+
+@media(min-width: 390px){
+	.callToAction-button {
+		font-size: 1.9em;
+	}
+}
