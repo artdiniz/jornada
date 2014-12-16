@@ -1,0 +1,40 @@
+.journeyResume {
+	background: #53CAB4;
+	color: white;
+}
+
+.journeyResume-item {
+	font-size: 1.2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	vertical-align: middle;
+	width: 44%;
+	display: inline-block;
+}
+
+.journeyResume-itemHiglight {
+	display: block;
+	font-size: 1.2em;
+}
+
+
+@media(min-width: 800px){
+	.journeyResume {
+		text-align: justify;
+		line-height: 0;
+		width: 100%;
+	}
+
+	.journeyResume-item {
+		width: auto;
+		display: inline-block;
+		line-height: normal;
+	}
+
+	.journeyResume:after {
+		content:".";
+		color: transparent;
+		width: 100%;
+		display: inline-block;
+	}
+}
