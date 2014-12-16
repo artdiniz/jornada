@@ -1,0 +1,40 @@
+.slider {
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.slider-item {
+	display: inline-block;
+	white-space: normal;
+	width: 100%;
+}
+
+.slider-item + .slider-item {
+	margin: 0;
+}
+
+.slider-navigation {
+	margin-top: 1em;
+}
+
+.slider-navigation > * {
+	display: inline-block;
+}
+
+.slider-navigationItem {
+	display: inline-block;
+	text-indent: -9999px;
+	overflow: hidden;
+	width: 20px;
+	height: 20px;
+	color: #EAEAEA;
+	border: 2px solid;
+	border-radius: 50%;
+}
+
+.slider-navigationItem:visited {
+	background-color: #EAEAEA;
+}
+
+
+
