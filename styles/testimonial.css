@@ -15,5 +15,11 @@
 }
 
 .testimonial-content {
-	font-size: 2.7em;
+	font-size: 1.9em;
+}
+
+@media(min-width:545px){
+	.testimonial-content {
+		font-size: 2.7em;
+	}
 }
