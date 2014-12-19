@@ -5,6 +5,7 @@
 
 .slider-item {
 	display: inline-block;
+	vertical-align: top;
 	white-space: normal;
 	width: 100%;
 }
@@ -15,6 +16,7 @@
 
 .slider-navigation {
 	margin-top: 1em;
+	display: inline-block;
 }
 
 .slider-navigation > * {
@@ -25,16 +27,20 @@
 	display: inline-block;
 	text-indent: -9999px;
 	overflow: hidden;
-	width: 20px;
-	height: 20px;
-	color: #EAEAEA;
-	border: 2px solid;
+	width: 30px;
+	height: 30px;
 	border-radius: 50%;
+	color: #EAEAEA;
+	border: 3px solid;
+	transition: background-color 0s 9999s linear;
 }
 
-.slider-navigationItem:visited {
+.slider-navigationItem:active {
+	transition: background-color 0s 0s linear;
 	background-color: #EAEAEA;
 }
 
-
-
+.slider-navigation:active .slider-navigationItem:not(:active){
+	transition: none;
+	background: transparent;
+}
