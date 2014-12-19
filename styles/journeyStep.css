@@ -31,7 +31,7 @@
 	margin-top: .5em;
 }
 
-@media(min-width: 600px){
+@media(min-width: 495px){
 	.journeyStep{
 		max-width: 220px;
 		display: inline-block;
