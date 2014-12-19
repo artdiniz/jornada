@@ -6,3 +6,7 @@
 .testimonialsContainer-title {
 	color: #292D36;
 }
+
+.testimonialsContainer .testimonial + .testimonial {
+	margin-top: 4em;
+}

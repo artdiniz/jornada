@@ -9,7 +9,7 @@
 	width: 100%;
 }
 
-.slider-item + .slider-item {
+.slider .slider-item + .slider-item {
 	margin: 0;
 }
 

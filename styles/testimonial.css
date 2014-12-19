@@ -1,9 +1,7 @@
 .testimonial{
-	width: 100%;
-}
-
-.testimonial + .testimonial {
-	margin-top: 4em;
+	box-sizing: content-box;
+	max-width: 725px;
+	padding: 0 calc(50% - 362.5px);
 }
 
 .testimonial-image {
