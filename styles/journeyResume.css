@@ -1,15 +1,15 @@
 .journeyResume {
 	text-align: center;
-	background: #52cab3;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	background: #52CAB3;
 	color: white;
-	padding-top: 1em;
-	padding-bottom: 1em;
 }
 
 .journeyResume-item {
 	display: inline-block;
 	width: 45%;
-	font-size: 1.45em;
+	font-size: 1.6em;
 	font-weight: bold;
 	text-transform: uppercase;
 	vertical-align: middle;
@@ -19,7 +19,6 @@
 	display: block;
 	font-size: 1.2em;
 }
-
 
 @media(min-width: 560px){
 	.journeyResume {
