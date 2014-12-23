@@ -1,5 +1,8 @@
 .testimonialsContainer {
 	background-color: #FFF;
+	background-image: url("../images/testimonials-bg.jpg");
+	background-size: cover;
+	background-position: center;
 	text-align: center;
 }
 
@@ -9,4 +12,19 @@
 
 .testimonialsContainer .testimonial + .testimonial {
 	margin-top: 4em;
+}
+
+@media (min-width: 1220px){
+	.testimonialsContainer {
+			background-repeat: no-repeat;
+			background-image: url("../images/spaceman.png"), url("../images/testimonials-bg.jpg");
+			background-size: 367px 463px, cover;
+			background-position: -15% 90px, center;
+	}
+}
+
+@media (min-width: 1326px) {
+	.testimonialsContainer {
+		background-position: -7% 90px, center;
+	}
 }
