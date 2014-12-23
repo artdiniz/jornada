@@ -1,12 +1,12 @@
 .callToAction {
 	text-align: center;
 	background-color: #292D36;
-	color: #FFF
+	color: #FFF;
 }
 
 .callToAction-content {
-	font-size: 2em;
-	margin-bottom: 1em;
+	font-size: 2.2em;
+	margin-bottom: 1.5em;
 }
 
 .callToAction-button {
