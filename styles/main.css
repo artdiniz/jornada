@@ -8,11 +8,11 @@ body {
 	padding: 4em 5%;
 }
 
-@media(min-width: 1220px) {
+@media(min-width: 1215px) {
 	.container {
 		box-sizing: content-box;
-		max-width: 1200px;
-		padding: 4em calc(50% - 600px)
+		max-width: 1180px;
+		padding: 4em calc(50% - 590px)
 	}
 }
 

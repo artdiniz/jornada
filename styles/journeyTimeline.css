@@ -7,7 +7,7 @@
 	color: #292D36;
 }
 
-@media(min-width: 1125px){
+@media(min-width: 1215px){
 	.journeyTimeline-list {
 		text-align: justify;
 		line-height: 0;
