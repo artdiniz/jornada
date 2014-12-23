@@ -1,3 +1,7 @@
+.testimonial {
+	text-align: center;
+}
+
 .testimonial-image {
 	width: 80px;
 	height: 80px;
@@ -13,13 +17,5 @@
 @media(min-width:545px){
 	.testimonial-content {
 		font-size: 2.7em;
-	}
-}
-
-@media(min-width: 725px) {
-	.testimonial{
-		box-sizing: content-box;
-		max-width: 725px;
-		padding: 0 calc(50% - 362.5px);
 	}
 }

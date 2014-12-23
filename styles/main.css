@@ -6,6 +6,7 @@ body {
 
 .container {
 	padding: 4em 5%;
+	overflow: hidden;
 }
 
 @media(min-width: 1215px) {

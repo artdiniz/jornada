@@ -34,7 +34,6 @@
 	color: #EBEBEB;
 	background-color: white;
 	border: 3px solid;
-	transition: background-color 0s 9999s linear;
 }
 
 .slider-navigationItem:after {
@@ -46,10 +45,16 @@
 	border: 0.3em solid white;
 }
 
-.slider-item:target .slider-navigationItemCurrent,
-.slider-item:first-child .slider-navigationItemCurrent {
-	transition: background-color 0s 0s linear;
+.slider-navigationItemCurrent {
 	background-color: #EBEBEB;
+}
+
+@media(min-width: 725px) {
+	.slider-item{
+		box-sizing: content-box;
+		max-width: 725px;
+		padding: 0 calc(50% - 363px)
+	}
 }
 
 

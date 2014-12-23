@@ -1,0 +1,19 @@
+.animatedSlider {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.animatedSlider .slider {
+	overflow: visible;
+	text-align: left;
+	transform: translateX(0%);
+	transition: all .2s ease;
+	width: calc(100% * 3);
+}
+
+.animatedSlider .slider-item {
+	width: calc(100% / 3);
+	max-width: 725px;
+	padding: 0 calc(calc(100% / 3) / 2 - 363px);
+}
