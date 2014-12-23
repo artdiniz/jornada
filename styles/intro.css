@@ -6,6 +6,12 @@
 	color: white;
 }
 
+.intro-title {
+	font-size: 3em;
+	display: inline-block;
+	margin-bottom: .7em;
+}
+
 .intro-content {
 	display: block;
 	font-size: 2.5em;
@@ -18,4 +24,36 @@
 	color: #52CAB3;
 	border: 2px solid;
 	font-size: 1.1em;
+}
+
+@media (min-width: 510px){
+	.intro-title {
+		line-height: 0;
+		margin-bottom: 1.2em;
+	}
+
+	.intro-titleLink {
+		display: inline-block;
+		background: url("../images/logo.png");
+		box-sizing: content-box;
+		background-clip: content-box;
+		background-position: center center;
+		width: 463px;
+		height: 150px;
+		padding: .5em 0 .45em;
+		text-indent: -9999px;
+	}
+
+	.intro-title:after,
+	.intro-title:before {
+		content: "";
+		width: 100%;
+		display: inline-block;
+		height: 6px;
+		background-repeat: no-repeat;
+		background-image: linear-gradient(currentcolor, currentcolor),
+											linear-gradient(currentcolor, currentcolor);
+		background-size: 100% 1px, 52px 6px;
+		background-position: center;
+	}
 }
