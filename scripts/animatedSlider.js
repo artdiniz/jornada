@@ -14,8 +14,6 @@
 
 			var slideToGoPosition = event.target.href.replace(/.*(?=\d)/, "");
 
-			slider.from(previousSlidePosition).to(slideToGoPosition).go()
-
 			var translate = -1 * (slideToGoPosition - 1) * 100;
 			slider.style.marginLeft = translate + "%";
 
