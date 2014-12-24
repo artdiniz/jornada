@@ -53,10 +53,9 @@
 	.slider-item{
 		box-sizing: content-box;
 		max-width: 725px;
-		padding: 0 calc(50% - 363px)
+		padding: 0 calc(50% - 363px);
 	}
 }
-
 
 @media (min-width: 1000px) {
 	.slider-navigationItem {
