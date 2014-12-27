@@ -1,0 +1,32 @@
+.aboutContainer {
+	background-color: #F7F7F7;
+}
+
+.aboutContainer .about + .about {
+	margin-top: 2em;
+}
+
+@media (min-width: 1000px){
+	.aboutContainer {
+		text-align: justify;
+		line-height: 0;
+	}
+
+	.aboutContainer .about {
+		display: inline-block;
+		width: 46%;
+		vertical-align: top;
+		line-height: normal;
+	}
+
+	.aboutContainer .about + .about {
+		margin-top: 0;
+	}
+
+	.aboutContainer:after {
+		content:".";
+		color: transparent;
+		width: 100%;
+		display: inline-block;
+	}
+}

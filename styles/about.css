@@ -1,0 +1,17 @@
+.about {
+	color: #292D36;
+}
+
+.about-title {
+	font-size: 1.9em;
+}
+
+.about-content {
+	line-height: 1.25;
+	font-size: 1.3em;
+	text-align: left;
+}
+
+.about-content + .about-content {
+	margin-top: 1.3em;
+}
