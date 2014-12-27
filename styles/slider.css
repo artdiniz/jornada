@@ -1,6 +1,7 @@
 .slider {
 	overflow: hidden;
 	white-space: nowrap;
+	text-align: center;
 }
 
 .slider-item {
