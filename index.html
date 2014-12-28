@@ -20,6 +20,8 @@
 	<link rel="stylesheet" href="styles/animatedSlider.css">
 	<link rel="stylesheet" href="styles/aboutContainer.css">
 	<link rel="stylesheet" href="styles/about.css">
+	<link rel="stylesheet" href="styles/join.css">
+	<link rel="stylesheet" href="styles/joinForm.css">
 </head>
 <body>
 	<section class="container intro">
@@ -237,6 +239,24 @@
 				Dolorem iste aspernatur porro excepturi possimus quo quia ratione, eius, expedita vitae error quis quam dolor itaque perspiciatis eligendi, temporibus.
 			</p>
 		</article>
+	</section>
+
+	<section class="container join">
+		<h2 class="title">Aliste-se</h2>
+		<p class="join-content">
+			Aqui uma breve informação para o cara entender que depois de se alistar ele vai receber nosso contato com mais informações.
+		</p>
+		<form action="#" method="POST" class="joinForm">
+			<input type="text" class="joinForm-input" name="foo1" maxlength="40">
+			<input type="text" class="joinForm-input" name="foo2" maxlength="40">
+			<input type="text" class="joinForm-input" name="foo3" maxlength="40">
+			<textarea type="text" class="joinForm-input" name="foo4" maxlength="140" rows="5"></textarea>
+			<input class="joinForm-checkbox" id="newsletterPermission" name="newsletterPermission" type="checkbox">
+			<label class="joinForm-checkboxLabel" for="newsletterPermission">
+				Quero receber a Newsletter da Caelum com notícias técnicas de Java, Ruby, Agile, JavaScript, Web Design e mais.
+			</label>
+			<input class="button joinForm-button" type="submit" value="Enviar">
+		</form>
 	</section>
 	<script src="scripts/animatedSlider.js"></script>
 </body>

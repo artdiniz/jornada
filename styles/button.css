@@ -1,4 +1,5 @@
 .button {
+	cursor: pointer;
 	display: inline-block;
   padding: .85em 3.5em .7em;
   text-align: center;

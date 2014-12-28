@@ -1,0 +1,18 @@
+.join {
+	text-align: center;
+	color: #292D36;
+}
+
+.join-content {
+	font-size: 2.2em;
+	line-height: 1.25;
+	margin-bottom: 1.2em;
+}
+
+@media(min-width: 800px) {
+	.join {
+		box-sizing: content-box;
+		max-width: 740px;
+		padding: 4em calc(50% - 370px)
+	}
+}

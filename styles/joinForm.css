@@ -1,0 +1,48 @@
+.joinForm {
+	text-align: left;
+}
+
+.joinForm-input {
+	display: block;
+	width: 100%;
+	font-size: 1.6em;
+	padding: .7em 1em;
+	border: none;
+	outline: none;
+	resize: none;
+	background: #292D36;
+	color: white;
+	margin-bottom: 1em;
+}
+
+.joinForm-checkbox {
+	display: none;
+}
+
+.joinForm-checkboxLabel {
+	display: block;
+	margin: 1.3em 0;
+	font-size: 1.4em;
+}
+
+.joinForm-checkboxLabel:before {
+	content: "";
+	display: inline-block;
+	vertical-align: top;
+	width: .95em;
+	height: .95em;
+	line-height: 1em;
+	border: 2px solid;
+	border-radius: 3px;
+	margin-right: .5em;
+	cursor: pointer;
+}
+
+.joinForm-checkbox:checked + .joinForm-checkboxLabel:before{
+	content: "✓";
+	text-align: center;
+}
+
+.joinForm-button {
+	font-size: 1.5em;
+}
