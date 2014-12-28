@@ -4,6 +4,7 @@
 	font-size: 3em;
 	font-weight: bold;
 	margin-bottom: .7em;
+	letter-spacing: 1.5px;
 }
 
 .title:after {
@@ -17,4 +18,10 @@
 										linear-gradient(#52CAB3, #52CAB3);
 	background-size: 100% 1px, .65em .1em;
 	background-position: center;
+}
+
+@media(min-width: 800px){
+	.title {
+		font-size: 3.3em;
+	}
 }

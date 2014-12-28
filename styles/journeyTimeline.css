@@ -5,6 +5,7 @@
 
 .journeyTimeline-title {
 	color: #292D36;
+	margin-bottom: 1em;
 }
 
 @media(min-width: 1215px){
