@@ -1,15 +1,41 @@
 .journeyStep {
 	padding: 1em;
 	vertical-align: top;
-	background: #292D36;
+	background-color: #292D36;
+	background-image: linear-gradient(-45deg, currentcolor, currentcolor 8px, transparent 8px, transparent 14px, currentcolor 14px, currentcolor 20px),
+	                  linear-gradient(-45deg, currentcolor, currentcolor 8px, transparent 8px, transparent 20px);
+	background-size: 20px 5px;
+	background-repeat: repeat-x;
 	margin-bottom: .5em;
 	text-align: left;
 }
 
+
+#journeyStep-1 {
+	color: #F7DE0D;
+}
+
+#journeyStep-2 {
+	color: #48AF73;
+}
+
+#journeyStep-3 {
+	color: #49B3CA;
+}
+
+#journeyStep-4 {
+	color: #C95757;
+}
+
+#journeyStep-5 {
+	color: #8073D1;
+}
+
 .journeyStep-number {
-	font-family: "UnitedSansRegular", "UnitedSansCond", "Arial", sans-serif;;
+	font-family: "UnitedSansRegular", "UnitedSansCond", "Arial", sans-serif;
+	font-weight: lighter;
 	font-size: 3em;
-	color: #FFF;
+	line-height: 1.5;
 }
 
 .journeyStep-name {
@@ -19,28 +45,50 @@
 	font-weight: lighter;
 	text-transform: uppercase;
 	-webkit-font-smoothing: antialiased;
-	color: #53CAB4;
-}
-
-.journeyStep-course {
-	color: white;
-	font-family: Arial, sans-serif;
 }
 
 .journeyStep-course + .journeyStep-course {
 	margin-top: .5em;
 }
 
+.journeyStep-courseName {
+	color: white;
+	font-family: "Arial Narrow", sans-serif;
+}
+
 @media(min-width: 495px){
 	.journeyStep{
-		max-width: 220px;
+		max-width: 222px;
 		display: inline-block;
+		padding: .9em;
 	}
 
 	.journeyStep-name{
 		min-height: 2em;
 		max-width: 4.8em;
 		font-size: 2em;
+	}
+
+	.journeyStep-course + .journeyStep-course {
+		margin-top: 1em;
+	}
+
+	.journeyStep:not(:nth-child(n+4)) .journeyStep-course:before {
+		content: ".";
+		text-align: center;
+		float: left;
+		display: inline-block;
+		width: 35px;
+		height: 35px;
+		background-color: currentcolor;
+		margin-right: .5em;
+	}
+
+	.journeyStep-courseName {
+		font-size: .94em;
+		font-weight: lighter;
+		overflow: hidden;
+		display: block;
 	}
 
 	.journeyStep-courseList{
