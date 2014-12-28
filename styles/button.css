@@ -1,0 +1,11 @@
+.button {
+	display: inline-block;
+  padding: .85em 3.5em .7em;
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+	background-color: #52CAB3;
+	color: #292D36;
+	box-shadow: 0 0 1px 1px #52CAB3;
+}

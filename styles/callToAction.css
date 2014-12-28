@@ -10,15 +10,7 @@
 }
 
 .callToAction-button {
-	display: inline-block;
-  padding: .85em 3.5em .7em;
-  text-align: center;
-  font-weight: bold;
-  border-radius: 5px;
-	background-color: #52CAB3;
-	color: #292D36;
 	font-size: 1.5em;
-	box-shadow: 0 0 4px 4px;
 }
 
 
