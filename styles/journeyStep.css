@@ -33,14 +33,14 @@
 .journeyStep-number {
 	font-family: "UnitedSansRegular", "UnitedSansCond", "Arial", sans-serif;
 	font-weight: lighter;
-	font-size: 3em;
+	font-size: 3.4em;
 	line-height: 1.5;
 }
 
 .journeyStep-name {
 	display: block;
 	margin-bottom: .5em;
-	font-size: 1.5em;
+	font-size: 1.7em;
 	font-weight: lighter;
 	text-transform: uppercase;
 	-webkit-font-smoothing: antialiased;
@@ -57,9 +57,9 @@
 
 @media(min-width: 495px){
 	.journeyStep{
-		max-width: 222px;
+		width: 220px;
 		display: inline-block;
-		padding: .9em;
+		padding: 0;
 		background-image: linear-gradient(-45deg, currentcolor, currentcolor 8px, transparent 8px, transparent 14px, currentcolor 14px, currentcolor 20px),
 	                  linear-gradient(-45deg, currentcolor, currentcolor 8px, transparent 8px, transparent 20px),
 	                  url("../images/steps.jpg");
@@ -92,10 +92,22 @@
 		background-position: 0 0, 0 0, -900px 0;
 	}
 
+	.journeyStep-heading {
+		padding: 1em 1em 0 1em;
+	}
+
+	.journeyStep-number {
+		font-size: 3.5em;
+	}
+
 	.journeyStep-name {
 		min-height: 2em;
 		max-width: 4.8em;
-		font-size: 2em;
+		font-size: 2.25em;
+	}
+
+	.journeyStep-course {
+		overflow: hidden;
 	}
 
 	.journeyStep-course + .journeyStep-course {
@@ -123,5 +135,6 @@
 	.journeyStep-courseList{
 		margin-top: .5em;
 		height: 10em;
+		padding: 0 .65em 0 1em;
 	}
 }
