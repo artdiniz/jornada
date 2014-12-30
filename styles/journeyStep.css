@@ -10,24 +10,23 @@
 	text-align: left;
 }
 
-
-#journeyStep-1 {
+.journeyStep#journeyStep-1 {
 	color: #F7DE0D;
 }
 
-#journeyStep-2 {
+.journeyStep#journeyStep-2 {
 	color: #48AF73;
 }
 
-#journeyStep-3 {
+.journeyStep#journeyStep-3 {
 	color: #49B3CA;
 }
 
-#journeyStep-4 {
+.journeyStep#journeyStep-4 {
 	color: #C95757;
 }
 
-#journeyStep-5 {
+.journeyStep#journeyStep-5 {
 	color: #8073D1;
 }
 
@@ -61,9 +60,39 @@
 		max-width: 222px;
 		display: inline-block;
 		padding: .9em;
+		background-image: linear-gradient(-45deg, currentcolor, currentcolor 8px, transparent 8px, transparent 14px, currentcolor 14px, currentcolor 20px),
+	                  linear-gradient(-45deg, currentcolor, currentcolor 8px, transparent 8px, transparent 20px),
+	                  url("../images/steps.jpg");
+		background-size: 20px 4px, 20px 4px, auto;
+		background-repeat: repeat-x, repeat-x, no-repeat;
 	}
 
-	.journeyStep-name{
+	.journeyStep#journeyStep-1 {
+		color: #F7DE0D;
+		background-position: 0 0, 0 0, 0 0;
+	}
+
+	.journeyStep#journeyStep-2 {
+		color: #48AF73;
+		background-position: 0 0, 0 0, -225px 0;
+	}
+
+	.journeyStep#journeyStep-3 {
+		color: #49B3CA;
+		background-position: 0 0, 0 0, -450px 0;
+	}
+
+	.journeyStep#journeyStep-4 {
+		color: #C95757;
+		background-position: 0 0, 0 0, -675px 0;
+	}
+
+	.journeyStep#journeyStep-5 {
+		color: #8073D1;
+		background-position: 0 0, 0 0, -900px 0;
+	}
+
+	.journeyStep-name {
 		min-height: 2em;
 		max-width: 4.8em;
 		font-size: 2em;
