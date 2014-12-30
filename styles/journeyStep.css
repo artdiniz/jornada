@@ -4,7 +4,7 @@
 	background-color: #292D36;
 	background-image: linear-gradient(-45deg, currentcolor, currentcolor 8px, transparent 8px, transparent 14px, currentcolor 14px, currentcolor 20px),
 	                  linear-gradient(-45deg, currentcolor, currentcolor 8px, transparent 8px, transparent 20px);
-	background-size: 20px 5px;
+	background-size: 20px 8px;
 	background-repeat: repeat-x;
 	margin-bottom: .5em;
 	text-align: left;
