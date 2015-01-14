@@ -6,7 +6,7 @@
 
 .slider-item {
 	display: inline-block;
-	vertical-align: top;
+	vertical-align: middle;
 	white-space: normal;
 	width: 100%;
 }
@@ -62,5 +62,6 @@
 	.slider-navigationItem {
 		width: 1.9em;
 		height: 1.9em;
+		margin-top: 1.4em;
 	}
 }

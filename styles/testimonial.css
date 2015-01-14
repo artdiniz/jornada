@@ -2,16 +2,14 @@
 	text-align: center;
 }
 
-.testimonial-image {
-	width: 80px;
-	height: 80px;
-	background: #EAEAEA;
-	border-radius: 50%;
-	margin-bottom: 2em;
-}
-
 .testimonial-content {
 	font-size: 1.9em;
+}
+
+.testimonial-studentInfo {
+	color: #858585;
+	margin-top: 1em;
+	font-size: 1.8em;
 }
 
 @media(min-width:545px){
