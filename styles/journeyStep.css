@@ -1,11 +1,12 @@
 .journeyStep {
 	padding: 1em;
 	vertical-align: top;
-	background-color: #292D36;
-	background-image: linear-gradient(-45deg, currentcolor, currentcolor 8px, transparent 8px, transparent 14px, currentcolor 14px, currentcolor 20px),
-	                  linear-gradient(-45deg, currentcolor, currentcolor 8px, transparent 8px, transparent 20px);
-	background-size: 20px 8px;
-	background-repeat: repeat-x;
+	background: #292D36;
+	background: url("../images/stripe.png") 0 0 / auto repeat,
+							#292D36;
+	background: linear-gradient(-45deg, currentcolor, currentcolor 8px, transparent 8px, transparent 14px, currentcolor 14px, currentcolor 20px) 0 0 / 20px 8px repeat-x,
+	            linear-gradient(-45deg, currentcolor, currentcolor 8px, transparent 8px, transparent 20px) 0 0 / 20px 8px repeat-x,
+	            #292D36;
 	margin-bottom: .5em;
 	text-align: left;
 }
@@ -60,36 +61,39 @@
 		width: 220px;
 		display: inline-block;
 		padding: 0;
-		background-image: linear-gradient(-45deg, currentcolor, currentcolor 8px, transparent 8px, transparent 14px, currentcolor 14px, currentcolor 20px),
-	                  linear-gradient(-45deg, currentcolor, currentcolor 8px, transparent 8px, transparent 20px),
-	                  url("../images/steps.jpg");
-		background-size: 20px 4px, 20px 4px, auto;
-		background-repeat: repeat-x, repeat-x, no-repeat;
+		background: #292D36;
+		background: url("../images/stripe.png") 0 0 / auto repeat,
+								#292D36;
+		background: linear-gradient(-45deg, currentcolor, currentcolor 8px, transparent 8px, transparent 14px, currentcolor 14px, currentcolor 20px) 0 0 / 20px 4px repeat-x,
+	              linear-gradient(-45deg, currentcolor, currentcolor 8px, transparent 8px, transparent 20px) 0 0 / 20px 4px repeat-x,
+	              url("../images/stripe.png") 0 0 / auto repeat,
+	              url("../images/steps.jpg") 0 0 / auto no-repeat,
+	              #292D36;
 	}
 
 	.journeyStep#journeyStep-1 {
 		color: #F7DE0D;
-		background-position: 0 0, 0 0, 0 0;
+		background-position: 0 0, 0 0, 0 0, 0 0;
 	}
 
 	.journeyStep#journeyStep-2 {
 		color: #48AF73;
-		background-position: 0 0, 0 0, -225px 0;
+		background-position: 0 0, 0 0, 0 0, -225px 0;
 	}
 
 	.journeyStep#journeyStep-3 {
 		color: #49B3CA;
-		background-position: 0 0, 0 0, -450px 0;
+		background-position: 0 0, 0 0, 0 0, -450px 0;
 	}
 
 	.journeyStep#journeyStep-4 {
 		color: #C95757;
-		background-position: 0 0, 0 0, -675px 0;
+		background-position: 0 0, 0 0, 0 0, -675px 0;
 	}
 
 	.journeyStep#journeyStep-5 {
 		color: #8073D1;
-		background-position: 0 0, 0 0, -900px 0;
+		background-position: 0 0, 0 0, 0 0, -900px 0;
 	}
 
 	.journeyStep-heading {
