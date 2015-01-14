@@ -25,3 +25,11 @@
 		background-position: -7% 115px, center;
 	}
 }
+
+@media (min-width: 1440px)  {
+	.testimonialsContainer {
+		background-image: url("../images/testimonials-bg-mq.jpg");
+		background-size: cover;
+	background-position: center;
+	}
+}
