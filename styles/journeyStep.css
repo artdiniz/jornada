@@ -1,6 +1,7 @@
 .journeyStep {
 	padding: 1em;
 	vertical-align: top;
+	position: relative;
 	background: #292D36;
 	background: url("../images/stripe.png") 0 0 / auto repeat,
 							#292D36;
@@ -60,6 +61,7 @@
 @media(min-width: 495px){
 	.journeyStep{
 		width: 220px;
+		height: 410px;
 		display: inline-block;
 		padding: 0;
 		background: linear-gradient(-45deg, currentcolor, currentcolor 8px, transparent 8px, transparent 14px, currentcolor 14px, currentcolor 20px) 0 0 / 20px 4px repeat-x,
@@ -136,7 +138,39 @@
 
 	.journeyStep-courseList{
 		margin-top: .5em;
-		height: 10em;
 		padding: 0 .65em 0 1em;
+	}
+
+	.journeyStep:after {
+		content: ".";
+		color: transparent;
+		text-align: center;
+		display: inline-block;
+		width: 35px;
+		height: 35px;
+		background-color: transparent;
+		position: absolute;
+		bottom: 1em;
+		left: 1em;
+	}
+
+	.journeyStep#journeyStep-1:after {
+		background: url("../images/icon-card1.svg");
+	}
+
+	.journeyStep#journeyStep-2:after {
+		background: url("../images/icon-card2.svg");
+	}
+
+	.journeyStep#journeyStep-3:after {
+		background: url("../images/icon-card3.svg");
+	}
+
+	.journeyStep#journeyStep-4:after {
+		background: url("../images/icon-card4.svg");
+	}
+
+	.journeyStep#journeyStep-5:after {
+		background: url("../images/icon-card5.svg");
 	}
 }
