@@ -110,6 +110,11 @@
 		font-size: 2.25em;
 	}
 
+	.journeyStep-courseList{
+		margin-top: .5em;
+		padding: 0 .65em 0 1em;
+	}
+
 	.journeyStep-course {
 		overflow: hidden;
 	}
@@ -125,8 +130,35 @@
 		display: inline-block;
 		width: 35px;
 		height: 35px;
-		background-color: currentcolor;
 		margin-right: .5em;
+		background-color: currentcolor;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center center;
+	}
+
+	#journeyStep-course43:before {
+		background-image: url("../images/icon-WD43.svg");
+	}
+
+	#journeyStep-course11:before {
+			background-image: url("../images/icon-FJ11.svg");
+		}
+
+	#journeyStep-course21:before {
+		background-image: url("../images/icon-FJ21.svg");
+	}
+
+	#journeyStep-course25:before {
+		background-image: url("../images/icon-FJ25.svg");
+	}
+
+	#journeyStep-course26:before {
+		background-image: url("../images/icon-FJ26.svg");
+	}
+
+	#journeyStep-course87:before {
+		background-image: url("../images/icon-PM87.svg");
 	}
 
 	.journeyStep-courseName {
@@ -134,11 +166,6 @@
 		font-weight: lighter;
 		overflow: hidden;
 		display: block;
-	}
-
-	.journeyStep-courseList{
-		margin-top: .5em;
-		padding: 0 .65em 0 1em;
 	}
 
 	.journeyStep:after {
