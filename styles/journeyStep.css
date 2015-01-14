@@ -64,6 +64,7 @@
 		height: 410px;
 		display: inline-block;
 		padding: 0;
+		margin-bottom: 0;
 		background: linear-gradient(-45deg, currentcolor, currentcolor 8px, transparent 8px, transparent 14px, currentcolor 14px, currentcolor 20px) 0 0 / 20px 4px repeat-x,
 	              linear-gradient(-45deg, currentcolor, currentcolor 8px, transparent 8px, transparent 20px) 0 0 / 20px 4px repeat-x,
 	              url("../images/stripe.png") 0 0 / auto repeat,
