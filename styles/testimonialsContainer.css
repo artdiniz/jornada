@@ -26,10 +26,8 @@
 	}
 }
 
-@media (min-width: 1440px)  {
+@media (min-width: 1500px)  {
 	.testimonialsContainer {
-		background-image: url("../images/testimonials-bg-mq.jpg");
-		background-size: cover;
-	background-position: center;
+		background-image: url("../images/spaceman.png"), url("../images/testimonials-bg.jpg");
 	}
 }
