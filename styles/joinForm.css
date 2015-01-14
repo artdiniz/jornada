@@ -2,9 +2,14 @@
 	text-align: left;
 }
 
+.joinForm-label {
+	font-size: 1.4em;
+}
+
 .joinForm-input {
 	display: block;
 	width: 100%;
+	font-family: Arial;
 	font-size: 1.6em;
 	padding: .7em 1em;
 	border: none;

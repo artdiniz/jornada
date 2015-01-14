@@ -244,17 +244,26 @@
 	<section class="container join">
 		<h2 class="title">Aliste-se</h2>
 		<p class="join-content">
-			Aqui uma breve informação para o cara entender que depois de se alistar ele vai receber nosso contato com mais informações.
+			Entraremos em contato para mostrar todos os detalhes, responder suas dúvidas e te manter atualizado.
 		</p>
 		<form action="#" method="POST" class="joinForm">
-			<input type="text" class="joinForm-input" name="foo1" maxlength="40">
-			<input type="text" class="joinForm-input" name="foo2" maxlength="40">
-			<input type="text" class="joinForm-input" name="foo3" maxlength="40">
-			<textarea type="text" class="joinForm-input" name="foo4" maxlength="140" rows="5"></textarea>
-			<input class="joinForm-checkbox" id="newsletterPermission" name="newsletterPermission" type="checkbox">
-			<label class="joinForm-checkboxLabel" for="newsletterPermission">
+			<label class="joinForm-label" for="joinForm-name">Nome</label>
+			<input type="text" class="joinForm-input" name="name"  id="joinForm-name">
+
+			<label class="joinForm-label" for="joinForm-email">Email</label>
+			<input type="text" class="joinForm-input" name="email" id="joinForm-email">
+
+			<label class="joinForm-label" for="joinForm-phone">Telefone com DDD</label>
+			<input type="text" class="joinForm-input" name="phone" id="joinForm-phone">
+
+			<label class="joinForm-label" for="joinForm-message">Mensagem</label>
+			<textarea class="joinForm-input" name="message" id="joinForm-message" rows="5"></textarea>
+
+			<input class="joinForm-checkbox" id="joinForm-newsletterPermission" name="newsletterPermission" type="checkbox">
+			<label class="joinForm-checkboxLabel" for="joinForm-newsletterPermission">
 				Quero receber a Newsletter da Caelum com notícias técnicas de Java, Ruby, Agile, JavaScript, Web Design e mais.
 			</label>
+
 			<input class="button joinForm-button" type="submit" value="Enviar">
 		</form>
 	</section>
