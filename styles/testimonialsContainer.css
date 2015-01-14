@@ -16,12 +16,12 @@
 			background-repeat: no-repeat;
 			background-image: url("../images/spaceman.png"), url("../images/testimonials-bg.jpg");
 			background-size: 367px 463px, cover;
-			background-position: -15% 90px, center;
+			background-position: -15% 115px, center;
 	}
 }
 
 @media (min-width: 1326px) {
 	.testimonialsContainer {
-		background-position: -7% 90px, center;
+		background-position: -7% 115px, center;
 	}
 }
