@@ -1,9 +1,23 @@
 .intro {
-	background-image: url(../images/intro-bg.jpg);
-	background-size: cover;
-	background-position: bottom center;
 	text-align: center;
 	color: white;
+	position: relative;
+	background-image: url(../images/intro-bg.jpg);
+	background-size: auto 100%;
+	background-position: bottom center;
+	z-index: 0;
+}
+
+.intro-video {
+	height: 100%;
+	width: auto;
+	left: 50%;
+	bottom: 0;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	position: absolute;
+	z-index: -1;
 }
 
 .intro-title {
