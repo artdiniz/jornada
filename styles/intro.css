@@ -9,8 +9,8 @@
 }
 
 .intro-video {
-	height: 100%;
 	width: auto;
+	height: 100%;
 	left: 50%;
 	bottom: 0;
 	-webkit-transform: translateX(-50%);
@@ -74,5 +74,16 @@
 											linear-gradient(currentcolor, currentcolor);
 		background-size: 100% 1px, 52px 6px;
 		background-position: center;
+	}
+}
+
+@media (min-width: 1160px){
+	.intro {
+		background-size: 100% auto;
+	}
+
+	.intro-video {
+		width: 100%;
+		height: auto;
 	}
 }
