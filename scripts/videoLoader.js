@@ -14,8 +14,8 @@
 		webmSource.src = "video/intro.webm"
 		webmSource.type = "video/webm"
 
-		video.appendChild(mp4Source)
 		video.appendChild(webmSource)
+		video.appendChild(mp4Source)
 
 		var intro = doc.querySelector(".intro")
 		intro.insertBefore(video, intro.firstChild)
